@@ -2,8 +2,8 @@
 
 This script cleans up tags in an Azure Container Registry repository while preserving:
 - The `latest` tag
-- The 3 most recent semantic version tags (pattern: `X.Y.Z` where X, Y, Z are numbers)
-- The 3 most recent 6-character alphanumeric tags (pattern: `1157bb`, `a1b2c3`, `123456`)
+- The 5 most recent semantic version tags (pattern: `X.Y.Z` where X, Y, Z are numbers)
+- The 5 most recent 6-character alphanumeric tags (pattern: `1157bb`, `a1b2c3`, `123456`)
 
 ## Prerequisites
 
